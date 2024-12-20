@@ -13,13 +13,6 @@ def ReadingFile(context):
         #f.close()
         return context.car_numbers_extracted
 
-
-    #with open('/Users/veerapulapakura/AutomationProjects/PythonWebTask_CarValuation/resources/car_inputV4.txt',
-                 # 'a+') as fr:
-        #fr.seek(0)
-        #fr.write("0")
-
-
 @then('The user should be able to verify data with car output file')
 def WritingData(context):
     print("Printing ...")
